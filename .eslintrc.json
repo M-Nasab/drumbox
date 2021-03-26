@@ -1,0 +1,24 @@
+ 
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true,
+        "jest/globals": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:jest/recommended"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 9,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "jest"
+    ]
+}
